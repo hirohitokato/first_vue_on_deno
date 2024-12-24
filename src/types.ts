@@ -1,8 +1,8 @@
-// type Dinosaur = {
-//   name: string;
-//   description: string;
-// };
+type Dinosaur = {
+  name: string;
+  description: string;
+};
 
-// type ComponentData = {
-//   dinosaurDetails: null | Dinosaur;
-// };
+export type ComponentData = {
+  dinosaurDetails: null | Dinosaur;
+};
